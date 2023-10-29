@@ -14,7 +14,7 @@ export const ListadoVideos = ({ videos, setVideos }) => {
 
     return (
         <div className="container-fluid mt-4">
-            <h3 className="ps-2 fw-bold">Lista de videos</h3>
+            <h3 className="ps-2 fw-bold text-center text-lg-start">Lista de videos</h3>
             {
                 videos.length ?
                     (

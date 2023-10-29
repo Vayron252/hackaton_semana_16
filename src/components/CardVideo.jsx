@@ -8,7 +8,7 @@ export const CardVideo = ({video, setOpenModal, setIdVideoSel}) => {
     }
 
     return (
-        <div className="col-2 p-2">
+        <div className="col-md-4 col-lg-2 p-2">
             <div className="card">
                 <div className="position-relative">
                     <div className="position-absolute top-0 start-0 mt-1 ms-1"><button className="btn btn-sm btn-secondary"><i className="fa-regular fa-pen-to-square"></i></button></div>
